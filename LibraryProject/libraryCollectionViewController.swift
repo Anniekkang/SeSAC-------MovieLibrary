@@ -53,7 +53,7 @@ class libraryCollectionViewController: UICollectionViewController {
         cell.movieoverviewLabel.textColor = .white
         cell.movieoverviewLabel.font = .boldSystemFont(ofSize: 15)
         cell.movietitleLabel.font = UIFont.boldSystemFont(ofSize: 30)
-        
+        cell.movieposterImageView.image = UIImage(named: data.title)
         
         return cell
     }
