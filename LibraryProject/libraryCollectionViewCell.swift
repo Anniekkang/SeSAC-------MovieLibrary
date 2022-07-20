@@ -15,4 +15,17 @@ class libraryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var movietitleLabel: UILabel!
     @IBOutlet weak var movieoverviewLabel: UILabel!
     
+    
+    func configureCell(cell : libraryCollectionViewCell){
+        
+      
+        cell.contentView.layer.cornerRadius = 20
+        cell.movietitleLabel.textColor = .white
+        cell.movieoverviewLabel.textColor = .white
+        cell.movieoverviewLabel.font = .boldSystemFont(ofSize: 10)
+        cell.movietitleLabel.font = UIFont.boldSystemFont(ofSize: 15)
+       
+    }
+    
+    
 }
